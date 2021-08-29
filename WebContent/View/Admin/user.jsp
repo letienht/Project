@@ -47,7 +47,7 @@
         				 <td>
                           <button class="btn btn-danger"><a href="Deleteuser?user-id=${user.id}">Xóa</a></button>
                          
-                          <button class="btn btn-success"><a href="Updateuser/edit?user-id=${user.id}">Sửa</a></button>
+                          <button class="btn btn-success"><a href="Updateuser?user-id=${user.id}">Sửa</a></button>
                         </td>
                      </tr>
                     </c:forEach>

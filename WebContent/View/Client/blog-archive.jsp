@@ -1,8 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : May 5, 2020, 10:57:00 PM
-    Author     : LENOVO
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
@@ -15,7 +10,7 @@
 <!--  content -->
   <!-- catg header banner section -->
   <section id="aa-catg-head-banner">
-   <img src="${url}images/archive-banner.png" alt="banner blog">
+   <img src="${url}/images/archive-banner.png" alt="banner blog">
    <div class="aa-catg-head-banner-area">
      <div class="container">
       <div class="aa-catg-head-banner-content">
@@ -45,7 +40,7 @@
                       <article class="aa-blog-content-single">                        
                         <h4><a href="Newdetail?id=${boardnew.id}">${boardnew.title}</a></h4>
                         <figure class="aa-blog-img">
-                          <a href="Newdetail?id=${boardnew.id}"><img src="${url}/assets/images/news/${boardnew.image_link}" alt="farm products" height="180px" width="300px"></a>
+                          <a href="Newdetail?id=${boardnew.id}"><img src="${url}/images/news/${boardnew.image_link}" alt="farm products" height="180px" width="300px"></a>
                         </figure>
                         <p class="desc-boardnews">${boardnew.content}</p>
                         <div class="aa-article-bottom">
